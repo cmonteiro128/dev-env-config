@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+ZSH_CUSTOM=/Users/chris/.zsh-custom
 export ZSH="/Users/chris/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -117,3 +118,4 @@ export PATH="$HOME/.serverless/bin:$PATH"
 # Added by Amplify CLI binary installer
 export PATH="$HOME/.amplify/bin:$PATH"
 alias config='/usr/bin/git --git-dir=/Users/chris/.cfg/ --work-tree=/Users/chris'
+
