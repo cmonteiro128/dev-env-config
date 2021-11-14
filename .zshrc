@@ -72,6 +72,7 @@ ZSH_THEME=""
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting )
 
 source $ZSH/oh-my-zsh.sh
+fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
 prompt pure
 # User configuration
@@ -123,3 +124,5 @@ alias config='/usr/bin/git --git-dir=/Users/chris/.cfg/ --work-tree=/Users/chris
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="$PATH:/Applications/Visual Studio Code - Insiders.app/Contents/Resources/app/bin"
